@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>:3</title>
+    <!-- Google Fonts Link For Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="nanas.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+
+    <div class="inform">
+        <h1>happy birthday</h1>
+        <p>waktu berjalan 2 tahun lebih ternyata sejak aku ngeliat wajah kamu pertama kali di smp dan pertama kali juga aku suka dengan seseorang yang gak pernah lepas dari ingatan aku kamu layawknya bintang paling bersinar diantar bintang lainnya ku jugs gsbisa jelasin seberapa sberapa manis dan gemas nya kamuh skosmnsos :3</p>
+    </div>
+
+
+    <div class="container">
+        <H1 class="our">Our gallery? :3</H1>
+      <div class="slider-wrapper">
+        <button id="prev-slide" class="slide-button material-symbols-rounded">
+          chevron_left
+        </button>
+        <ul class="image-list">
+          <img class="image-item" src="nanas1.jpeg" alt="img-1" />
+          <img class="image-item" src="nanas2.jpeg" alt="img-2" />
+          <img class="image-item" src="nanas3.jpeg" alt="img-3" />
+          <img class="image-item" src="nanas4.jpeg" alt="img-4" />
+          <img class="image-item" src="nanas5.jpeg" alt="img-5" />
+          <img class="image-item" src="nanas6.jpeg" alt="img-6" />
+          <img class="image-item" src="nanas7.jpeg" alt="img-7" />
+        
+        </ul>
+        <button id="next-slide" class="slide-button material-symbols-rounded">
+          chevron_right
+        </button>
+      </div>
+      <div class="slider-scrollbar">
+        <div class="scrollbar-track">
+          <div class="scrollbar-thumb"></div>
+        </div>
+      </div>
+    </div>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDSokP1QHkPyzGZ9EjCI3ONea6CdMEq1Sw",
+        authDomain: "hbdnanas.firebaseapp.com",
+        projectId: "hbdnanas",
+        storageBucket: "hbdnanas.appspot.com",
+        messagingSenderId: "81721723338",
+        appId: "1:81721723338:web:4155ef99fe2d34e976a733",
+        measurementId: "G-H5HDV94H67"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </body>
+</html>
